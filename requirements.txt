@@ -6,6 +6,7 @@ langchain-community
 langchain-chroma
 langchain-openai
 langchain-ollama
+langchain-huggingface
 chromadb
 sentence-transformers
 pypdf
