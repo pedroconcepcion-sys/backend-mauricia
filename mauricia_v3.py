@@ -112,7 +112,8 @@ def inicializar_sistema():
         # 2. Embeddings de OpenAI (No consumen RAM local)
         embedding_function = OpenAIEmbeddings(
             model=MODELO_EMBEDDINGS,
-            api_key=api_key
+            api_key=os.getenv("GITHUB_TOKEN"),
+            base_url="https://models.inference.ai.azure.com"
         )
         
         # 3. Conectar ChromaDB
