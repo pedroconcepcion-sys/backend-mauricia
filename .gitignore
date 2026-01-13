@@ -2,6 +2,10 @@ test/
 others/
 ipynb/
 venv/
+utils/
+data/
+chroma_db_local/
+chroma_db_local_old/
 procesamiento/
 data/
 __pycache__/
@@ -9,7 +13,12 @@ __pycache__/
 .env
 *.pyc
 *.bat
-
+mauricia_local_v4.py
+mauricia_v3.1.py
+ingesta_local.py
+crear_cerebro_v9.py
+api_local.py
+cerebroparaarmarproduccion.py
 
 
 

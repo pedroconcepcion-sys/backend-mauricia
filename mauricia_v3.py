@@ -64,7 +64,7 @@ RESP_BLOQUEO = "Lo siento, solo puedo responder consultas sobre Postgrados USACH
 
 INYECCION_PROHIBIDA = ["ignora", "ignore", "olvida", "jailbreak", "modo desarrollador"]
 NO_ACADEMICO_KW = ["receta", "cocina", "pizza", "sushi", "chiste", "clima", "piscina", "gym", "casino"]
-SALUDOS_KW = {"hola", "holi", "buenas", "buenos", "dias", "saludos", "hey", "que", "tal", "mauricia"}
+SALUDOS_KW = {"hola", "holi", "buenas", "buenos", "dias", "saludos", "hey", "hi", "mauricia"}
 KW_DINERO = ("cuanto", "precio", "valor", "costo", "sale", "arancel", "matricula")
 
 _re_inyeccion = re.compile("|".join(re.escape(x) for x in INYECCION_PROHIBIDA), re.IGNORECASE)

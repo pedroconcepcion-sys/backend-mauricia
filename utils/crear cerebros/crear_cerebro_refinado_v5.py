@@ -9,7 +9,7 @@ from langchain_chroma import Chroma
 
 # --- CONFIGURACIÓN ---
 CARPETA_DATA = "data"
-RUTA_DB = "chroma_db"
+RUTA_DB = "chroma_db_local"
 
 def estandarizar_formato_precios(texto):
     """
